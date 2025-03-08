@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ui-tests",
+  "version": "1.0.0",
+  "description": "UI regression test suite using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report",
+    "test:samples": "playwright test tests/samples/"
+  },
+  "keywords": [
+    "playwright",
+    "ui",
+    "testing",
+    "regression"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.38.0",
+    "typescript": "^5.1.6"
+  }
+}
